@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/headind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We'd love to hear from you !"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_01"
+        android:padding="15dp"
+        android:drawableEnd="@drawable/ic_baseline_notifications_active_24"/>
+    <TextView
+        android:id="@+id/head"
+        android:layout_below="@id/headind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For all kind of queries related to course,class and other platform related information"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_01"
+        android:layout_below="@id/head"
+        android:text="Email"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:padding="15dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+
+    <TextView
+        android:id="@+id/head2"
+        android:layout_below="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You will get a reply from us within 48 hours"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_01"
+        android:layout_below="@id/head2"
+        android:text="Chat with us \t \t \t(9AM- 9PM)"
+        android:drawableStart="@drawable/ic_baseline_forum_24"
+        android:padding="15dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_01"
+        android:layout_below="@id/button2"
+        android:text="Follow us \t \t \t"
+        android:drawableStart="@drawable/ic_baseline_share_24"
+        android:padding="15dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_01"
+        android:layout_below="@id/button3"
+        android:text="Visit Us"
+        android:textStyle="bold"
+        android:padding="15dp"
+       />
+
+</RelativeLayout>
